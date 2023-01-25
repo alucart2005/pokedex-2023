@@ -14,13 +14,13 @@ https://pokeapi.co/docs/v2.
 
 -	[https://www.linkedin.com/in/napoleon-de-jesus-anaya-romero-8872ba127/](https://www.linkedin.com/in/napoleon-de-jesus-anaya-romero-8872ba127/)
 
--	[https://products-list-dev.netlify.app/](https://products-list-dev.netlify.app/)
+-	[https://pokedex-2023.netlify.app/](https://pokedex-2023.netlify.app/)
 
 -	[https://github.com/alucart2005/pokedex-2023](https://github.com/alucart2005/pokedex-2023)
 
 ## See live example
 
-- [https://products-list-dev.netlify.app/](https://products-list-dev.netlify.app/)
+- [https://pokedex-2023.netlify.app/](https://pokedex-2023.netlify.app/)
  
 ![..](https://raw.githubusercontent.com/alucart2005/pokedex-2023/Pokedex-Ver2/public/Capture-Pokedex.jpg)
 
