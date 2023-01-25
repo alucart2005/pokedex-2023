@@ -53,12 +53,12 @@ const Pokedex = ({ isVisible, setIsVisible }) => {
       <div className='titulo'>
         <h1 >Welcome {userName}</h1>
         <h2 >to the POKEDEX</h2>
-      
+      </div>
+      <div  className='title'>
       <input
-        
         list='pokemon'
         name='pokemon'
-        placeholder='search pokemon'
+        placeholder='Search Pokemon'
         value={pokemonName}
         onChange={(e) => setPokemonName(e.target.value)}
       />
@@ -70,11 +70,10 @@ const Pokedex = ({ isVisible, setIsVisible }) => {
         </datalist>
       </div>
       <button
-       
         onClick={changePokemonName}
-      >
-        shearch
-      </button>
+      >Search</button>
+      </div>
+      <div className='titulo'>
       <select
         className='select'
         onChange={filterType}
@@ -87,7 +86,6 @@ const Pokedex = ({ isVisible, setIsVisible }) => {
           </option>
         ))}
       </select>
-      {/* paginacion */}
       <Page
         isVisible={isVisible}
         setIsVisible={setIsVisible}
@@ -96,8 +94,6 @@ const Pokedex = ({ isVisible, setIsVisible }) => {
         array={array}
         totalPage={totalPage}
       />
-
-      {/* cierra paginacion */}
       <section >
         <ul className='card__container'>
           {pokemonPagination.map((pokemon) => (
@@ -116,7 +112,8 @@ const Pokedex = ({ isVisible, setIsVisible }) => {
         array={array}
         totalPage={totalPage}
       />
-    </div></div>
+      </div>
+    </div>
   )
 }
 

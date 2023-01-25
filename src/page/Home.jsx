@@ -20,8 +20,8 @@ const Home = () => {
   return (
     <div className='card' >
       <img src={inicio} width='350px' alt='pokedex' />
-      <h2 >Hello Trainer !</h2>
-      <h3 >Give me your name to start...</h3>
+      <h2 >Hello Trainer !!!</h2>
+      <h3 >Give me your name to start</h3>
       <form action="" onSubmit={ (e) => hamdleSubmit(e)}>
       <input
         type='text'

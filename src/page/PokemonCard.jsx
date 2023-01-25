@@ -24,12 +24,10 @@ const PokemonCard = () => {
           <img
             onClick={() => setAdd(true)}
             src={pokeball}
-           
             alt='pokeball1'
           />
         </div>
       )}
-
       {add && (
         <div className=''>
           <div
@@ -101,7 +99,6 @@ const PokemonCard = () => {
               <p >{pokemon.stats?.[0].base_stat}/150</p>
               <label htmlFor='Atack'>Atack</label>
               <progress
-                
                 id='Atack'
                 max='150'
                 value={pokemon.stats?.[1].base_stat}
@@ -111,7 +108,6 @@ const PokemonCard = () => {
               <p >{pokemon.stats?.[1].base_stat}/150</p>
               <label htmlFor='Defense'>Defense</label>
               <progress
-                
                 id='Defense'
                 max='150'
                 value={pokemon.stats?.[2].base_stat}
@@ -131,20 +127,18 @@ const PokemonCard = () => {
             </div>
             </div>
           </div>
-          <div >
             <div className='movements'>
              <h2>Movements</h2>
               {pokemon.moves?.map((poke) => (
                 <div key={poke.move.name} >
-                  <button
-                    key={poke.move.name}
+                  <button 
+                  key={poke.move.name}
                   >
-                    {poke.move.name}
+                  {poke.move.name}
                   </button>
                 </div>
               ))}
             </div>
-          </div>
         </div>
       )}
     </div>
